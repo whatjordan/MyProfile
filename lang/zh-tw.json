@@ -1,0 +1,8 @@
+{
+	"about":" 對於網站設計、軟體開發、互動應用與數位音樂等編程領域充滿著熱情。青少年時期學習音樂，於音樂班中建立起自律的習慣，並培養音韻與美感的認知，大學便開始有電子專題實作與互動作品佈展的經驗，從中養成了快速排除問題的能力，並習慣在壓力下找出最適當的解決方案。而後在寫程式的經驗中，充分了解自學的重要性，也有了更多不同思考的方式，持續地提升技術與視野。閒暇之餘喜歡參與Maker社群，利用Arduino、Processing等Open Source的開發環境實作side project。",
+	"institute":"  就讀台北科技大學互動媒體設計研究所，研究領域為互動設計與音訊處理，選修人機介面設計、視覺與資訊設計，強化互動程式、聲音處理的能力，並了解使用者介面/經驗的設計概念。",
+	"college":" 就讀東海大學電機系，修習電子電路、電工實驗、邏輯設計、數位系統雛型設計、資料結構、資訊教育(C++)等科目，並進入無線通訊與網路實驗室，專題為Zigbee智慧家庭開發。",
+	"trainingProgram":" 畢業後持續精進程式語言，並參加台北科技大學進修推廣部Java&Android程式設計師養成班，學習Java網路應用，包含Spring、Hibernate框架、JDBC、網頁前端語言、Ajax技術、Mysql資料庫，也涵蓋UML分析與專案管理流程，並於結訓專題開發 Ink-Shown 藝文分享平台，負責資料庫建置、後端應用系統開發、前後端資料連結，Google Map、Facebook API與jQuery開源應用。",
+	"skill":" • 後端程式設計(Java/Servlet/Jsp/Hiberinate/Spring/Jsoup/JDBC)、MySQL資料庫語言、Git版本控制<br>• 前端網頁語法撰寫(HTML/CSS/JavaScript/jQuery)、API應用(Google map/Facebook sdk)<br>• 多媒體影音製作(Adobe Premiere/Adobe Audition/Cubase/Reason)<br>• 互動設計(Max_Msp_Jitter/Processing/Arduino)<br>"
+
+}

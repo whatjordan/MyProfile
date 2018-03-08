@@ -5,11 +5,32 @@
 -----------------------------------------------------------------------------------*/
 
  jQuery(document).ready(function($) {
-
+/*----------------------------------------------------*/
+//language
+  var lang = window.navigator.userLanguage || window.navigator.language ;
+  var relang = lang.toLowerCase();
+  var fileName = 'lang/'+relang+'.json';
+  var path =  fileName;
+  $.ajax({
+    url: path,
+    success : function(){
+      $.getJSON('lang/'+relang+'.json', translate);
+    },
+    error: function(){
+      $.getJSON('lang/zh-tw.json', translate);
+    }
+  });
+  $("#lang-zh").click(function(){
+    $.getJSON('lang/zh-tw.json', translate);
+  });
+  $("#lang-en").click(function(){
+    $.getJSON('lang/en.json', translate);
+  });
+/*----------------------------------------------------*/
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
-
+   
     setTimeout(function() {
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
 	 }, 100);

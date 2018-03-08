@@ -49,15 +49,15 @@
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
             <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
-           
+           <li id="lang-nav"><button id="lang-zh">繁中</button><button id="lang-en">en</button></li>
          </ul> <!-- end #nav -->
-
+			
       </nav> <!-- end #nav-wrap -->
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">Hello! <br>I'm Jordan Ciou.</h1>
-            <h3>I'm a <span>Full Stack Developer</span>, including <span>Interactive Design  </span>and <span>Sound Design.</span> <!--  Let's <a class="smoothscroll" href="#about">Scrolling</a>
+            <h1 class="responsive-headline">Hi! <br>I'm Jordan</h1>
+            <h3>I'm a <span>Full Stack Developer</span>, also <span>Interactive </span>and <span>Sound Designer.</span> <!--  Let's <a class="smoothscroll" href="#about">Scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3> -->
             <hr />
             <ul class="social">
@@ -92,7 +92,7 @@
 
             <h2>About Me</h2>
 
-            <p>  對於網站開發、軟體開發、互動設計與數位音樂等編程領域充滿著熱情。青少年時期學習音樂，在音樂班中建立起長期自我訓練的習慣，並培養音韻與美感的認知，大學開始便有專題開發與作品佈展的經驗，從中養成了快速排除問題的能力，並習慣在壓力下找出最適當的解決方案。開發過藝文分享網站與智慧家庭專題，並實作互動裝置與數位音樂作品，閒暇之餘也喜歡參與Maker社群，利用Arduino、Processing等Open Source的開發環境實作side project。
+            <p tkey="about">  對於網站設計、軟體開發、互動應用與數位音樂等編程領域充滿著熱情。青少年時期學習音樂，於音樂班中建立起自律的習慣，並培養音韻與美感的認知，大學便開始有電子專題實作與互動作品佈展的經驗，從中養成了快速排除問題的能力，並習慣在壓力下找出最適當的解決方案。而後在寫程式的經驗中，充分了解自學的重要性，也有了更多不同思考的方式，持續地提升技術與視野。閒暇之餘喜歡參與Maker社群，利用Arduino、Processing等Open Source的開發環境實作side project。
             </p>
 
             <div class="row">
@@ -144,7 +144,7 @@
                   <h3>University of Life</h3>
                   <p class="info">Master in Interactive Media Design <span>&bull;</span> <em class="date">August 2015</em></p>
 
-                  <p>
+                  <p tkey="institute">
                    就讀台北科技大學互動媒體設計研究所，研究領域為互動設計與音訊處理，選修人機介面設計、視覺與資訊設計，強化互動程式、聲音處理的能力，並了解使用者介面/經驗的設計概念。
                   </p>
                   <p>
@@ -159,13 +159,13 @@
                   <hr>
                   <p class="info">B.E Degree in Electrical Engineering<span>&bull;</span> <em class="date">June 2012</em></p>
 
-                  <p>
+                  <p tkey="college">
                    就讀東海大學電機系，修習電子電路、電工實驗、邏輯設計、數位系統雛型設計、資料結構、資訊教育(C++)等科目，並進入無線通訊與網路實驗室，專題為Zigbee智慧家庭開發。
                   </p>
                    <span>獲獎</span>：<br>
                       • 中華電信2011年電信創新應用大賽冠軍<br>
                       • 國立臺灣師範大學Wocmat 2011 音樂徵集<br>
-                      <hr>
+                    <hr>
                </div>
 
             </div> <!-- item end -->
@@ -177,10 +177,15 @@
                   <h3>After Graduation</h3>
                   <p class="info">Training Department <span>&bull;</span> <em class="date">May 2017</em></p>
 
-                  <p>
-                  畢業後持續精進程式語言，並參加台北科技大學進修推廣部Java&Android程式設計師養成班，學習Java網路應用，包含Spring、Hibernate框架、JDBC、網頁前端語言、Ajax技術、Mysql資料庫，也涵蓋UML分析與專案管理流程，並於結訓專題開發<a href="#">Ink-Shown</a>藝文分享平台，負責資料庫建置、後端應用系統開發、前後端資料連結，Google Map、Facebook API與jQuery開源應用。
+                  <p tkey="trainingProgram">
+                	  畢業後持續精進程式語言，並參加台北科技大學進修推廣部Java&Android程式設計師養成班，學習Java網路應用，包含Spring、Hibernate框架、JDBC、網頁前端語言、Ajax技術、Mysql資料庫，也涵蓋UML分析與專案管理流程，並於結訓專題開發 Ink-Shown 藝文分享平台，負責資料庫建置、後端應用系統開發、前後端資料連結，Google Map、Facebook API與jQuery開源應用。
                   </p>
-
+                  <hr>
+                  <h3>Work</h3>
+ 				  <p class="info">Development Team<span>&bull;</span> <em class="date">June 2017</em></p>
+                  <p tkey="work1">
+              		 投入網路廣告行業，專職應用系統規劃與開發(SpringMVC, Hibernate, MySQL)，主要串接Google AdWords API，進行數據整合與自動化操作。後端開發包含權限管理(Google Oauth導入)、同步資料排程(Quartz)、異動通知(Java mail, Apache POI, Google Spreadsheet)、交易紀錄比對、資料驗證、防止惡意攻擊(XXS, sql Injection, AES encryption)等。前端開發包含RWD網站設計(Bootstrap)、表單驗證、資料串接、JQuery套件應用(DataTable等)，並有佈署專案在Linux上的經驗。開發中持續強化自身對於函數式語法的寫作技巧(Java8 lambda)、多執行緒的操作 (Concurrent)、WebSocket的應用與Restful 的設計概念。秉持著自身對於軟體設計的原則，致力於優化程式效能，並為系統找出更有彈性的架構，同時也撰寫整潔的程式碼，盡力在品質與效率之間取得平衡。
+                  </p>
                </div>
 
             </div> <!-- item end -->
@@ -204,7 +209,7 @@
 
          <div class="nine columns main-col">
 
-            <p>
+            <p tkey="skill">
                • 後端程式設計(Java/Servlet/Jsp/Hiberinate/Spring/Jsoup/JDBC)、MySQL資料庫語言、Git版本控制<br>
                • 前端網頁語法撰寫(HTML/CSS/JavaScript/jQuery)、API應用(Google map/Facebook sdk)<br>
                • 多媒體影音製作(Adobe Premiere/Adobe Audition/Cubase/Reason)<br>
@@ -602,16 +607,18 @@
 
    <!-- Java Script
    ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script> 
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
+   <script src="js/lang.js"></script>
    <script src="js/init.js"></script>
-   
+
 </body>
 
 </html>

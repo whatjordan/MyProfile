@@ -8,6 +8,24 @@
 
 /* ------------------------------------------------------------------ */
 
+/*custom*/
+ul#nav li#lang-nav{
+   position:fixed;
+   right: 4%;
+  /* top:  2%;*/
+  margin-top: 1%;
+   margin-left: 300px;
+}
+#lang-nav button{
+   font-size: 100%;
+   margin-right: 2px;
+   padding: 3px;
+   line-height: inherit;
+   width: 30px;
+   margin-bottom: 5px;
+}
+
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
