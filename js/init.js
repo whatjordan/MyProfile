@@ -14,10 +14,12 @@
   $.ajax({
     url: path,
     success : function(){
-      $.getJSON('lang/'+relang+'.json', translate);
+      if(relang === "en" || relang === "en-us"){
+       $.getJSON('lang/en.json', translate);
+      }
     },
     error: function(){
-      $.getJSON('lang/zh-tw.json', translate);
+      // $.getJSON('lang/zh-tw.json', translate);
     }
   });
   $("#lang-zh").click(function(){
