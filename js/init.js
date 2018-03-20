@@ -24,9 +24,11 @@
   });
   $("#lang-zh").click(function(){
     $.getJSON('lang/zh-tw.json', translate);
+    $("#resumeLink").attr("href","https://github.com/whatjordan/whatjordan.github.io/blob/master/MyProfile_zh.pdf");
   });
   $("#lang-en").click(function(){
     $.getJSON('lang/en.json', translate);
+    $("#resumeLink").attr("href","https://github.com/whatjordan/whatjordan.github.io/blob/master/MyProfile_en.pdf");
   });
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
