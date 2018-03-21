@@ -7,5 +7,5 @@
 	"collegeAwards":"  <span>獲獎</span>：<br> • 中華電信2011年電信創新應用大賽冠軍<br> • 國立臺灣師範大學Wocmat 2011 音樂徵集<br>",
 	"exhibitionPage1":" 2011 中華電信電信創新應用大賽<br> 2011 Wocmat <br> 2013 漢字動畫創意競賽<br> ",
 	"exhibitionPage2":" 2013/2014 新一代設計展<br> 2015 Maker Faire Taipei<br> 2016 台灣國際兒童影展<br>",
-	"career1":"投入網路廣告行業，專職應用系統規劃與開發(SpringMVC, Hibernate, MySQL)，主要串接Google AdWords API，進行數據整合與自動化操作，也維護公司舊有報表系統。後端開發包含權限管理(Google Oauth導入)、同步資料排程(Quartz)、異動通知(Java mail, Apache POI, Google Spreadsheet)、交易紀錄比對、資料驗證、防止惡意攻擊(XXS, sql Injection, AES encryption)等。前端開發包含RWD網站設計(Bootstrap)、表單驗證、資料串接、JQuery套件應用(DataTable等)，並有佈署專案在Linux上的經驗。開發中持續強化自身對於函數式語法的寫作技巧(Java8 lambda)、多執行緒的操作 (Concurrent)、WebSocket的應用與Restful 的設計概念。秉持著自身對於軟體設計的原則，致力於優化程式效能，並為系統找出更有彈性的架構，同時也撰寫整潔的程式碼，盡力在品質與效率之間取得平衡。"
+	"career1":"投入網路廣告行業，專職應用系統規劃與開發(SpringMVC, Hibernate, MySQL)，主要串接Google AdWords API，進行數據整合與自動化操作，也維護公司舊有報表系統。後端開發包含權限管理(Google Oauth導入)、同步資料排程(Quartz)、異動通知(Java mail, Apache POI, Google Spreadsheet)、交易紀錄比對、資料驗證、防止惡意攻擊(XSS, SQL Injection, AES 加密, Rate Limits)等。前端開發包含RWD網站設計(Bootstrap)、表單驗證、資料串接、JQuery套件應用(DataTable等)，並有佈署專案在Linux上的經驗。開發中持續強化自身對於函數式語法的寫作技巧(Java8 lambda)、多執行緒的操作 (Concurrent)、WebSocket的應用與Restful 的設計概念。秉持著自身對於軟體設計的原則，致力於優化程式效能，為系統找出更有彈性的架構，同時也撰寫整潔的程式碼，盡力在品質與效率之間取得平衡。"
 }

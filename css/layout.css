@@ -320,12 +320,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .BackEnd {
-  	width: 88%;
+  	width: 95%;
   	-moz-animation: BackEnd 2s ease;
   	-webkit-animation: BackEnd 2s ease;
 }
 .FrontEnd {
-  	width: 76%;
+  	width: 80%;
   	-moz-animation: FrontEnd 2s ease;
   	-webkit-animation: FrontEnd 2s ease;
 }
