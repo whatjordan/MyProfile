@@ -1,5 +1,5 @@
 {
-	"about":" 對於網站設計、軟體開發、互動應用與數位音樂等編程領域充滿著熱情。青少年時期學習音樂，於音樂班中建立起自律的習慣，並培養音韻與美感的認知，大學時期便開始有電子專題實作與互動作品佈展的經驗，從中養成了快速排除問題的能力，習慣在壓力下找出最適當的解決方案。畢業後專注於程式開發上，在寫程式的過程中充分了解自學的重要性，能獨立工作完成設定的目標，並持續地提升技術與視野。閒暇之餘喜歡參與Maker社群，利用Arduino、Processing等Open Source的開發環境實作side project。",
+	"about":" 熟悉系統設計, 後端開發與API應用, 也對互動應用與數位音樂等編程領域充滿著熱情。青少年時期於音樂班中建立起自律的習慣，並培養音韻與美感的認知，大學時期開始有電子專題實作與互動作品佈展的經驗，從中養成快速排除問題的能力，習慣在壓力下找出最適當的解決方案。畢業後專注於程式開發上，持續自學提升技術與視野，能獨立工作完成設定的目標。閒暇之餘喜歡參與Java/Maker/SDN等社群技術分享，也喜愛現代藝術與互動科技展覽。",
 	"institute":"  就讀台北科技大學互動媒體設計研究所,研究領域為互動設計與音訊處理，選修人機介面設計、視覺與資訊設計,了解使用者介面/經驗的設計概念,同時也為分析使用者的行為數據，學習過高等統計。",
 	"college":" 就讀東海大學電機系，修習電子電路、電工實驗、邏輯設計、數位系統雛型設計、資料結構、資訊教育(C++)等科目，並進入無線通訊與網路實驗室，專題為Zigbee智慧家庭開發。",
 	"trainingProgram":" 畢業後持續精進程式語言，並參加台北科技大學進修推廣部Java&Android程式設計師養成班，學習Java網路應用，包含Spring、Hibernate框架、JDBC、網頁前端語言、Ajax技術、Mysql資料庫，也涵蓋UML分析與專案管理流程，並於結訓專題開發 Ink-Shown 藝文分享平台，負責資料庫建置、後端應用系統開發、前後端資料連結，Google Map、Facebook API與jQuery開源應用。",
@@ -7,5 +7,5 @@
 	"collegeAwards":"  <span>獲獎</span>：<br> • 中華電信2011年電信創新應用大賽冠軍<br> • 國立臺灣師範大學Wocmat 2011 音樂徵集<br>",
 	"exhibitionPage1":" 2011 中華電信電信創新應用大賽<br> 2011 Wocmat <br> 2013 漢字動畫創意競賽<br> ",
 	"exhibitionPage2":" 2013/2014 新一代設計展<br> 2015 Maker Faire Taipei<br> 2016 台灣國際兒童影展<br>",
-	"career1":"投入網路廣告行業，專職應用系統規劃與開發(SpringMVC, Hibernate, MySQL)，主要串接Google AdWords API，進行數據整合與自動化操作，也維護公司舊有報表系統。後端開發包含權限管理(Google Oauth導入)、同步資料排程(Quartz)、異動通知(Java mail, Apache POI, Google Spreadsheet)、交易紀錄比對、資料驗證、防止惡意攻擊(XSS, SQL Injection, AES 加密, Rate Limits)等。前端開發包含RWD網站設計(Bootstrap)、表單驗證、資料串接、JQuery套件應用(DataTable等)，並有佈署專案在Linux上的經驗。開發中持續強化自身對於函數式語法的寫作技巧(Java8 lambda)、多執行緒的操作 (Concurrent)、WebSocket的應用與Restful 的設計概念。秉持著自身對於軟體設計的原則，致力於優化程式效能，為系統找出更有彈性的架構，同時也撰寫整潔的程式碼，盡力在品質與效率之間取得平衡。"
+	"career1":" 專職應用系統規劃與開發(SpringMVC/Boot, Hibernate, MySQL)，包含串接Google AdWords/Spread-sheet API，進行數據整合與廣告自動化操作，並維護公司報表系統。後端開發包含權限管理(Google Oauth導入)、同步資料排程(Quartz)、異動通知(Java mail, Apache POI, Google Spreadsheet)、交易紀錄比對、資料驗證、防止攻擊(XSS, SQL Injection, AES 加密, Rate Limits)等。前端開發包含RWD網站設計(Bootstrap)、表單驗證、資料串接、jQuery套件應用(DataTable等)，並有佈署系統在Linux 伺服器上的經驗。開發中持續強化自身對於函數式語法的寫作技巧(Java8 lambda)、多執行緒的操作 (Concurrent)、WebSocket的應用與Restful 的設計概念, 致力於優化程式效能，重構系統使架構更具擴充性，同時也撰寫整潔的程式碼，盡力在品質與效率之間取得平衡。"
 }

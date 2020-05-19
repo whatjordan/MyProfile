@@ -325,7 +325,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: BackEnd 2s ease;
 }
 .FrontEnd {
-  	width: 80%;
+  	width: 75%;
   	-moz-animation: FrontEnd 2s ease;
   	-webkit-animation: FrontEnd 2s ease;
 }
@@ -335,7 +335,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: DigitalMedia 2s ease;
 }
 .InteractiveDesign {
-  	width: 80%;
+  	width: 75%;
   	-moz-animation: InteractiveDesign 2s ease;
   	-webkit-animation: InteractiveDesign 2s ease;
 }
@@ -343,11 +343,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes BackEnd {
   0%   { width: 0px;  }
-  100% { width: 88%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes FrontEnd {
   0%   { width: 0px;  }
-  100% { width: 76%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes DigitalMedia {
   0%   { width: 0px;  }
@@ -355,17 +355,17 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes InteractiveDesign {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 
 
 @-webkit-keyframes BackEnd {
   0%   { width: 0px;  }
-  100% { width: 88%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes FrontEnd {
   0%   { width: 0px;  }
-  100% { width: 76%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes DigitalMedia {
   0%   { width: 0px;  }
@@ -373,7 +373,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes InteractiveDesign {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 
 
